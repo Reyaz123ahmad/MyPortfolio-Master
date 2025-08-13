@@ -18,7 +18,8 @@ const Projects = () => {
         'Created comprehensive appointment lifecycle management',
         'Designed secure authentication using JWT tokens'
       ],
-      tags: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'JWT'] 
+      tags: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'JWT'],
+      link: 'https://hospital-management-forntend.vercel.app/'
     },
     { 
       title: 'StudyNotion', 
@@ -39,7 +40,8 @@ const Projects = () => {
         'Responsive design supporting all device sizes',
         'Optimized performance using React techniques'
       ],
-      tags: ['React', 'Tailwind CSS', 'LocalStorage'] 
+      tags: ['React', 'Tailwind CSS', 'LocalStorage'],
+      link: 'https://paste-app-ws2x.vercel.app/' 
     },
     { 
       title: 'Coffee Shop E-Commerce', 
@@ -49,7 +51,8 @@ const Projects = () => {
         'Intuitive navigation for seamless user interactions',
         'Optimized for all device sizes'
       ],
-      tags: ['React', 'Tailwind CSS', 'Responsive UI'] 
+      tags: ['React', 'Tailwind CSS', 'Responsive UI'],
+      link: 'https://coffee-shopop-reyaz.vercel.app/' 
     },
     { 
       title: 'Dentalist Healthcare Portal', 
@@ -59,7 +62,8 @@ const Projects = () => {
         'Responsive patient dashboard with treatment history',
         'Enabled faster insurance approvals'
       ],
-      tags: ['HTML', 'CSS', 'JavaScript'] 
+      tags: ['HTML', 'CSS', 'JavaScript'],
+      link: 'https://hospitality-landing-page-ten.vercel.app/' 
     }
   ];
 
@@ -100,7 +104,7 @@ const Projects = () => {
               </div>
               
               <div className="project-footer">
-                <a href="https://hospital-management-forntend.vercel.app/" className="btn-outline">View Details</a>
+                <a href={project.link} className="btn-outline">View Details</a>
               </div>
             </div>
           ))}
